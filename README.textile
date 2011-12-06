@@ -1,4 +1,24 @@
-h1. Header 1
+h1. jQuery Accordion
 
-p.サンプル
+h2. 使い方
+
+# jQueryを読み込む
+# jquery.accordion.jsを読み込む
+# $(function(){});内で $('.accordion').jAccordion();
+
+p. 「.accordion」はアコーディオンするコンテンツをラップしている要素で、その中の「.head」を見て、その次の要素をアコーディオン化する。
+
+h2. Options
+
+p. オプションとして以下を用意している。''内はデフォルト値
+
+* headClass: 'head' // ナビゲーションにする要素のクラス名
+* openClass: 'open' // 開いているときにナビゲーションとコンテンツに付加するクラス名
+* closeClass: 'close' // 閉じているときにナビゲーションとコンテンツに付加するクラス名
+* speed: 0 // アコーディオンするスピード
+* easing: 'swing' // アコーディオンする際のイージング。 jQuery Easingと組み合わせるときれい
+* autoClose: false // コンテンツを開いた際に、他の開いているコンテンツを閉じるかどうかをBooleanで指定
+
+
+p. That's All
 
